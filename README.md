@@ -1,4 +1,4 @@
-# ☕ Koufee Coffee Shop — Purwakarta
+# ☕ Koufee Coffee Shop 
 
 > *"Your Third Place in Purwakarta"* — Tempat nongkrong cozy untuk mahasiswa, freelancer, dan siapapun yang butuh suasana produktif.
 
