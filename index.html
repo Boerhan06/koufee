@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- SEO & META TAGS -->
+    <title>Koufee Coffee Shop Purwakarta | Kafe Cozy untuk Nongkrong & WFH</title>
+    <meta name="description" content="Nikmati suasana tenang dan kopi terbaik di Koufee Coffee Shop Purwakarta. Tempat nongkrong asik, cocok untuk mahasiswa dan WFH di Nagri Kaler.">
+    <meta property="og:title" content="Koufee Coffee Shop Purwakarta">
+    <meta property="og:description" content="Temukan ketenangan produktif dan cita rasa kopi autentik di jantung kota Purwakarta.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://koufee.com">
+    
+    <!-- PERFORMANCE: FONT PRELOAD -->
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Outfit:wght@300;400;500;600;700&display=swap" as="style">
+    
+    <!-- Typography -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Background Leaf Decorations -->
+    <svg class="leaf-decoration leaf-top-right" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+      <path d="M45.7,-76.3C58.9,-68.8,69.1,-55.3,77.7,-40.8C86.3,-26.3,93.2,-10.8,91.8,4.1C90.3,19,80.4,33.3,70,45.8C59.6,58.3,48.7,69,35.2,76.5C21.7,84,5.6,88.3,-9.9,86.2C-25.4,84.1,-40.3,75.6,-53.4,65.2C-66.5,54.8,-77.8,42.5,-85.4,28C-93,13.5,-96.9,-3.2,-93.6,-18.8C-90.3,-34.4,-79.8,-48.9,-66.2,-57.8C-52.6,-66.7,-35.9,-70,-21.2,-72.1C-6.5,-74.2,6.2,-75,20.4,-77.4C34.6,-79.8,48.3,-83.8,45.7,-76.3Z" transform="translate(100 100)" />
+    </svg>
+
+    <svg class="leaf-decoration leaf-bottom-left" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+      <path d="M49.4,-70.7C61.4,-57.9,66.8,-38.7,71.1,-20.3C75.4,-1.9,78.6,15.7,72.5,29.9C66.4,44.1,51,54.9,34.9,64.2C18.8,73.5,2,81.3,-14.2,80C-30.4,78.7,-46,68.3,-58.5,55.1C-71,41.9,-80.4,25.9,-83.4,8.8C-86.4,-8.3,-83.1,-26.5,-73.2,-41.2C-63.3,-55.9,-46.8,-67.1,-30.8,-73.3C-14.8,-79.5,0.7,-80.7,16.8,-78C32.9,-75.3,49.6,-68.7,49.4,-70.7Z" transform="translate(100 100)" />
+    </svg>
+
+    <!-- 1. NAVIGATION -->
+    <header>
+        <nav id="main-nav" class="botanical-nav">
+            <div class="logo">
+                <a href="#">Koufee<span>.</span></a>
+            </div>
+            
+            <button class="menu-toggle" aria-label="Toggle Menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+
+            <ul class="nav-links">
+                <li style="--i:1"><a href="#hero">Home</a></li>
+                <li style="--i:2"><a href="#menu">Menu</a></li>
+                <li style="--i:3"><a href="#about">About</a></li>
+                <li style="--i:4"><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="nav-actions">
+                <button type="button" class="btn-order">Pesan Sekarang</button>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- 2. HERO SECTION -->
+        <section id="hero" class="glass-hero">
+            <div class="hero-content">
+                <div class="badges reveal-fade">
+                    <span class="badge-tag">Cocok untuk Mahasiswa & WFH</span>
+                    <div class="facility-badges">
+                        <span class="badge-item">WiFi</span>
+                        <span class="badge-item">Outdoor</span>
+                        <span class="badge-item">AC</span>
+                    </div>
+                </div>
+                <h1 class="reveal-slide-up">Your Third Place in Purwakarta</h1>
+                <p class="reveal-fade">Nikmati perpaduan sempurna antara produktivitas dan relaksasi. Koufee adalah <span id="typing-text" class="text-sage"></span></p>
+                
+                <div class="hero-cta reveal-pop">
+                    <a href="#menu" class="btn-primary">Lihat Menu</a>
+                    <a href="#contact" class="btn-secondary">Kunjungi Kami</a>
+                </div>
+
+                <!-- Stats Counter -->
+                <div class="stats-container reveal-fade">
+                    <div class="stat-item">
+                        <span class="stat-number" data-target="500">0</span>+
+                        <span class="stat-label">Pelanggan Puas</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number" data-target="50">0</span>+
+                        <span class="stat-label">Menu Pilihan</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number" data-target="100">0</span>%
+                        <span class="stat-label">Biji Kopi Lokal</span>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-visual" style="border-radius: 20px; overflow: hidden; box-shadow: var(--shadow-soft);">
+                <img src="images/koufee_hero_1778604554937.png" alt="Koufee Coffee Shop Interior" style="width: 100%; height: 100%; object-fit: cover;">
+            </div>
+        </section>
+
+        <!-- 3. MENU SECTION -->
+        <section id="menu" class="glass-section">
+            <header class="section-header reveal-slide-left">
+                <h2>Menu Pilihan</h2>
+                <p>Koleksi rasa spesial untuk menemani hari Anda.</p>
+            </header>
+
+            <div class="filter-tabs reveal-fade">
+                <button class="filter-btn active" data-filter="all">Semua</button>
+                <button class="filter-btn" data-filter="kopi">Kopi</button>
+                <button class="filter-btn" data-filter="non-kopi">Non-Kopi</button>
+                <button class="filter-btn" data-filter="makanan">Makanan</button>
+                <button class="filter-btn" data-filter="snack">Snack</button>
+            </div>
+
+            <div class="menu-grid">
+                <!-- Kategori: Kopi Classic -->
+                <article class="menu-card botanical-card reveal-card" data-category="kopi">
+                    <span class="card-badge">Kopi Classic</span>
+                    <img src="images/koufee_coffee_1778604587597.png" alt="Kopi" class="menu-img">
+                    <div class="menu-detail">
+                        <h3>Espresso</h3>
+                        <p class="short-desc">Intense & aromatic coffee shot.</p>
+                        <span class="price">Rp 15.000</span>
+                    </div>
+                </article>
+
+                <article class="menu-card botanical-card reveal-card" data-category="kopi">
+                    <span class="card-badge">Kopi Classic</span>
+                    <img src="images/koufee_coffee_1778604587597.png" alt="Kopi" class="menu-img">
+                    <div class="menu-detail">
+                        <h3>Americano</h3>
+                        <p class="short-desc">Classic espresso with pure water.</p>
+                        <span class="price">Rp 18.000</span>
+                    </div>
+                </article>
+
+                <article class="menu-card botanical-card reveal-card" data-category="kopi">
+                    <span class="card-badge">Kopi Classic</span>
+                    <img src="images/koufee_coffee_1778604587597.png" alt="Kopi" class="menu-img">
+                    <div class="menu-detail">
+                        <h3>Latte</h3>
+                        <p class="short-desc">Smooth espresso with steamed milk.</p>
+                        <span class="price">Rp 22.000</span>
+                    </div>
+                </article>
+
+                <article class="menu-card botanical-card reveal-card" data-category="kopi">
+                    <span class="card-badge">Kopi Classic</span>
+                    <img src="images/koufee_coffee_1778604587597.png" alt="Magic" class="menu-img">
+                    <div class="menu-detail">
+                        <h3>Magic</h3>
+                        <p class="short-desc">Double ristretto with silk milk.</p>
+                        <span class="price">Rp 25.000</span>
+                    </div>
+                </article>
+
+                <!-- Kategori: Kopi Signature -->
+                <article class="menu-card botanical-card reveal-card featured" data-category="kopi">
+                    <span class="badge-featured">★ Andalan</span>
+                    <span class="card-badge">Signature</span>
+                    <div class="menu-img shimmer-placeholder">
+                        <span class="temp-icons">❄️</span>
+                    </div>
+                    <div class="menu-detail">
+                        <h3>Kopi Safira</h3>
+                        <p class="short-desc">Signature blend with floral notes.</p>
+                        <span class="price">Rp 28.000</span>
+                    </div>
+                </article>
+
+                <article class="menu-card botanical-card reveal-card featured" data-category="kopi">
+                    <span class="badge-featured">★ Andalan</span>
+                    <span class="card-badge">Signature</span>
+                    <img src="images/koufee_coffee_1778604587597.png" alt="Signature Coffee" class="menu-img">
+                    <div class="menu-detail">
+                        <h3>Kopi Narendra</h3>
+                        <p class="short-desc">Bold & full-bodied experience.</p>
+                        <span class="price">Rp 28.000</span>
+                    </div>
+                </article>
+
+                <article class="menu-card botanical-card reveal-card featured" data-category="kopi">
+                    <span class="badge-featured">★ Andalan</span>
+                    <span class="card-badge">Signature</span>
+                    <img src="images/koufee_coffee_1778604587597.png" alt="Signature Coffee" class="menu-img">
+                    <div class="menu-detail">
+                        <h3>Butterscotch Latte</h3>
+                        <p class="short-desc">Indulgent caramel sweetness.</p>
+                        <span class="price">Rp 30.000</span>
+                    </div>
+                </article>
+
+                <!-- Kategori: Non-Kopi -->
+                <article class="menu-card botanical-card reveal-card" data-category="non-kopi">
+                    <span class="card-badge">Non-Kopi</span>
+                    <img src="images/koufee_matcha_1778604618171.png" alt="Non-Kopi" class="menu-img">
+                    <div class="menu-detail">
+                        <h3>Ultimate Matcha Biscoff</h3>
+                        <p class="short-desc">Japanese Matcha with Biscoff crunch.</p>
+                        <span class="price">Rp 28.000</span>
+                    </div>
+                </article>
+
+                <article class="menu-card botanical-card reveal-card" data-category="non-kopi">
+                    <span class="card-badge">Non-Kopi</span>
+                    <img src="images/koufee_matcha_1778604618171.png" alt="Non-Kopi" class="menu-img">
+                    <div class="menu-detail">
+                        <h3>Sakura Kiss</h3>
+                        <p class="short-desc">Fresh floral drink from Japan.</p>
+                        <span class="price">Rp 25.000</span>
+                    </div>
+                </article>
+
+                <!-- Makanan -->
+                <article class="menu-card botanical-card reveal-card" data-category="makanan">
+                    <span class="card-badge">Makanan</span>
+                    <img src="images/koufee_food_1778604604304.png" alt="Makanan" class="menu-img">
+                    <div class="menu-detail">
+                        <h3>Nasi Goreng Cabe Ijo</h3>
+                        <p class="short-desc">Spicy green chili fried rice.</p>
+                        <span class="price">Rp 19.000</span>
+                    </div>
+                </article>
+
+                <article class="menu-card botanical-card reveal-card" data-category="makanan">
+                    <span class="card-badge">Makanan</span>
+                    <img src="images/koufee_food_1778604604304.png" alt="Spageti" class="menu-img">
+                    <div class="menu-detail">
+                        <h3>Spageti Bolognese</h3>
+                        <p class="short-desc">Pasta with beef bolognese sauce.</p>
+                        <span class="price">Rp 27.000</span>
+                    </div>
+                </article>
+
+                <!-- Snack -->
+                <article class="menu-card botanical-card reveal-card" data-category="snack">
+                    <span class="card-badge">Snack</span>
+                    <img src="images/koufee_food_1778604604304.png" alt="Snack" class="menu-img">
+                    <div class="menu-detail">
+                        <h3>Mix Platter 2</h3>
+                        <p class="short-desc">Big platter for 4 people.</p>
+                        <span class="price">Rp 75.000</span>
+                    </div>
+                </article>
+            </div>
+
+            <!-- Add-ons Section -->
+            <div class="add-ons botanical-card reveal-fade">
+                <h3>Extra Delights</h3>
+                <div class="add-ons-grid">
+                    <div class="add-on-item">
+                        <span class="label">Extra Shot</span>
+                        <span class="val">+Rp 5.000</span>
+                    </div>
+                    <div class="add-on-item">
+                        <span class="label">Oat Milk</span>
+                        <span class="val">+Rp 8.000</span>
+                    </div>
+                    <div class="add-on-item">
+                        <span class="label">Sauce Tar Tar</span>
+                        <span class="val">+Rp 3.000</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 4. ABOUT SECTION -->
+        <section id="about" class="glass-section">
+            <div class="about-container botanical-card">
+                <img src="images/koufee_about_1778604571089.png" alt="Koufee Interior" class="about-visual">
+                <div class="about-content">
+                    <h2 class="reveal-slide-left">Cerita Koufee</h2>
+                    <p class="reveal-fade">"Koufee lahir dari keinginan sederhana — menciptakan tempat di mana kamu bisa datang sendirian dengan laptop, atau ramai bersama teman, dan tetap merasa di rumah. Di tengah kota Purwakarta yang terus berkembang, kami hadir sebagai ruang ketiga kamu."</p>
+                    <div class="atmosphere-tags reveal-fade">
+                        <span class="tag">Casual</span>
+                        <span class="tag">Cosy</span>
+                        <span class="tag">Quiet</span>
+                        <span class="tag">Trendy</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 5. FACILITIES SECTION -->
+        <section id="facilities" class="glass-section">
+            <header class="section-header reveal-fade">
+                <h2>Fasilitas Kami</h2>
+            </header>
+            <div class="facilities-grid">
+                <div class="facility-item botanical-card reveal-pop">
+                    <span class="icon">📶</span>
+                    <span class="label">Free WiFi</span>
+                </div>
+                <div class="facility-item botanical-card reveal-pop">
+                    <span class="icon">🍽️</span>
+                    <span class="label">Dine-in</span>
+                </div>
+                <div class="facility-item botanical-card reveal-pop">
+                    <span class="icon">🌿</span>
+                    <span class="label">Outdoor Area</span>
+                </div>
+                <div class="facility-item botanical-card reveal-pop">
+                    <span class="icon">📅</span>
+                    <span class="label">Reservasi</span>
+                </div>
+                <div class="facility-item botanical-card reveal-pop">
+                    <span class="icon">🚚</span>
+                    <span class="label">Delivery</span>
+                </div>
+                <div class="facility-item botanical-card reveal-pop">
+                    <span class="icon">🥡</span>
+                    <span class="label">Takeaway</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- 6. CONTACT SECTION -->
+        <section id="contact" class="glass-section">
+            <div class="contact-grid">
+                <div class="contact-info botanical-card reveal-slide-left">
+                    <h2>Kunjungi Kami</h2>
+                    
+                    <!-- Opening Hours Visual -->
+                    <div class="info-group">
+                        <div class="hours-header">
+                            <h3>Jam Buka</h3>
+                            <span id="status-indicator" class="status-badge">Checking...</span>
+                        </div>
+                        <div class="hours-bar">
+                            <span class="time">08.00</span>
+                            <div class="bar-track">
+                                <div id="time-dot" class="dot"></div>
+                            </div>
+                            <span class="time">23.00</span>
+                        </div>
+                        <p class="hours-text">Setiap Hari (08.00 - 23.00)</p>
+                    </div>
+
+                    <div class="info-group">
+                        <h3>Alamat</h3>
+                        <address>Jl. Taman Pahlawan, Nagri Kaler, Purwakarta, Jawa Barat 41119</address>
+                    </div>
+                    
+                    <div class="info-group">
+                        <h3>Metode Pembayaran</h3>
+                        <div class="payment-badges">
+                            <span class="pay-badge">Kartu Kredit</span>
+                            <span class="pay-badge">Kartu Debit</span>
+                            <span class="pay-badge">NFC/QRIS</span>
+                        </div>
+                    </div>
+
+                    <div class="contact-cta">
+                        <a href="https://wa.me/628123456789?text=Halo%20Koufee!%20Saya%20ingin%20melakukan%20pemesanan..." class="btn-whatsapp">Hubungi via WhatsApp</a>
+                    </div>
+                </div>
+                <div class="contact-map botanical-card reveal-fade">
+                    <iframe loading="lazy" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3963.5358051410884!2d107.4447098751508!3d-6.559239164106571!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e690e6616429535%3A0xc3161c563e3d231a!2sJl.%20Taman%20Pahlawan%2C%20Nagri%20Kaler%2C%20Kec.%20Purwakarta%2C%20Kabupaten%20Purwakarta%2C%20Jawa%20Barat%2041119!5e0!3m2!1sid!2sid!4v1715531000000!5m2!1sid!2sid" width="100%" height="100%" style="border:0; border-radius: 20px;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- 7. FOOTER -->
+    <footer class="glass-footer">
+        <div class="footer-separator"></div>
+        <div class="footer-content">
+            <div class="footer-brand">
+                <h3>Koufee<span>.</span></h3>
+                <p>Your Third Place in Purwakarta</p>
+                <p class="tagline">Dibuat dengan ☕ di Purwakarta</p>
+            </div>
+            <div class="footer-links">
+                <a href="#" class="social-icon">IG</a>
+                <a href="#" class="social-icon">WA</a>
+                <a href="#" class="social-icon">MAPS</a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Koufee Coffee Shop Purwakarta. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Floating WhatsApp Button -->
+    <a href="https://wa.me/628123456789?text=Halo%20Koufee!%20Saya%20ingin%20melakukan%20pemesanan..." class="floating-wa pulse" target="_blank" aria-label="Chat WhatsApp">
+        <span class="wa-icon">WA</span>
+    </a>
+
+    <script src="script.js"></script>
+</body>
+</html>
